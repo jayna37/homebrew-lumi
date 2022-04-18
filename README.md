@@ -1,2 +1,8 @@
 # homebrew-lumi
-Homebrew tap for Lumi
+Unofficial homebrew tap for [Lumi](https://lumi.education/)
+
+Official Git repository: https://github.com/lumieducation/lumi
+
+## Install
+
+brew install jeifour/homebrew-lumi/lumi
