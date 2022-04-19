@@ -5,4 +5,6 @@ Official Git repository: https://github.com/lumieducation/lumi
 
 ## Install
 
-`brew install jeifour/lumi/lumi`
+```
+brew install jeifour/lumi/lumi
+```
