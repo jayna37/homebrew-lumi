@@ -1,11 +1,11 @@
 cask "lumi" do
   arch = Hardware::CPU.intel? ? "mac" : "arm64-mac"
-  version "0.9.1"
+  version "0.9.4"
 
   if Hardware::CPU.intel?
-    sha256 "bbcad28129668b3e079840bfe2efb2f135130ab27971956be1693484ea3051ba"
+    sha256 "b0f7c3973b70fea066b0a775f0ef6a39c10b6f3e236a7bc7df67cf0df90d4450"
   else
-    sha256 "0aecb14f5656db52bf1d091a647eafe0002dc3878a792f5230d978af5fd61522"
+    sha256 "3251f360680cbff1f6e213c0374fa3af4259d54d8b312566d1fcf99916d7b9dd"
   end
 
   url "https://github.com/Lumieducation/Lumi/releases/download/v#{version}/Lumi-#{version}-#{arch}.zip",
